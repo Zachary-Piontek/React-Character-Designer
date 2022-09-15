@@ -6,7 +6,7 @@ export default function List({ phrase, setPhrase }) {
   const [currentPhrase, setCurrentPhrase] = useState('');
   const handlePhraseInput = () => {
     setPhrase((prePhrase) => [currentPhrase, ...prePhrase]);
-    setCurrentPhrase();
+    setCurrentPhrase('');
   };
 
   return (

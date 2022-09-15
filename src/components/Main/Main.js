@@ -12,6 +12,7 @@ export default function Main() {
   const [legs, setLegs] = useState('legs-3');
   const [phrase, setPhrase] = useState(['Bones is all I got.']);
 
+
   return (  
     <main style={{ backgroundImage: `url(${background})` }}>
       <Option setHead={setHead} setBody={setBody} setLegs={setLegs}/>   
