@@ -1,0 +1,8 @@
+.image-display {
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    max-width: 200px;
+}
