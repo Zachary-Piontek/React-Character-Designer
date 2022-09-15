@@ -1,0 +1,9 @@
+.list {
+    grid-area: list;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 15%;
+}
