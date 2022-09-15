@@ -1,8 +1,9 @@
 import React from 'react';
+import '../Options/option.css';
 
 export default function Option({ setHead, setBody, setLegs }) {
   return (
-    <div>
+    <div className='option'>
       <div>
         <label>Choose a Head</label>
         <select onChange={(event) => setHead(event.target.value)}>
