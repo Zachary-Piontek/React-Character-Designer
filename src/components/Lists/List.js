@@ -15,8 +15,8 @@ export default function List({ phrase, setPhrase }) {
       <input value={currentPhrase} onChange={(event) => setCurrentPhrase(event.target.value)} />
       <button onClick={handlePhraseInput}>Add</button>
       <ul>
-        {phrase.map((phrase) => (
-          <li key={phrase}>{phrase}</li>
+        {phrase.map((phrase, whydoesthiswork) => (
+          <li key={phrase + whydoesthiswork}>{phrase}</li>
         ))}
       </ul>
     </div>

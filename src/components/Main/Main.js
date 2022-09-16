@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 import Option from '../Options/Option.js';
 import Display from '../Displays/Display.js';
 import List from '../Lists/List.js';
-import background from '../../city-background.png';
+import background from '../../chalkboard-background.jpeg';
 import '../Main/main.css';
 
 export default function Main() {
   const [head, setHead] = useState('skull-3');
   const [body, setBody] = useState('body-1');
   const [legs, setLegs] = useState('legs-3');
-  const [phrase, setPhrase] = useState(['Bones is all I got.']);
+  const [phrase, setPhrase] = useState(['Bones and pants.']);
 
 
   return (  

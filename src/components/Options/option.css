@@ -1,4 +1,9 @@
 .option {
     grid-area: option;
+    justify-self: end;
     margin: 20px;
+    color: wheat;
+    font-weight:bolder;
+    font-family: fantasy;
+    font-size: larger;
   }

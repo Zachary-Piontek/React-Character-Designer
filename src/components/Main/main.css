@@ -1,6 +1,6 @@
 main {
     display: grid;
-    grid-template-columns: 1.25fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'option display list';
     height: 100vh;
     background-size: 100% 100%;
