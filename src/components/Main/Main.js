@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-import Option from '../Options/Option.js';
-import Display from '../Displays/Display.js';
-import List from '../Lists/List.js';
+import Option from '../Options/Option';
+import Display from '../Displays/Display';
+import List from '../Lists/List';
 import background from '../../chalkboard-background.jpeg';
-import '../Main/main.css';
+import './main.css';
 
 export default function Main() {
   const [head, setHead] = useState('skull-3');

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Displays/display.css';
+import './display.css';
 
 export default function Display({ head, body, legs }) {
   return (

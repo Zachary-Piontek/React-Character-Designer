@@ -25,7 +25,7 @@ export default function Option({ setHead, setBody, setLegs }) {
   return (
     <div className='option'>
       <div>
-        <h3>{countHead}</h3>
+        <h3>Change Total: {countHead}</h3>
         <label>Choose a Head</label>
         <select onChange={handleHeadCount}>
           <option value='skull-3'>Head-3</option>
@@ -34,7 +34,7 @@ export default function Option({ setHead, setBody, setLegs }) {
         </select>
       </div>
       <div>
-        <h3>{countBody}</h3>
+        <h3>Change Total: {countBody}</h3>
         <label>Choose a Body</label>
         <select onChange={handleBodyCount}>
           <option value='body-1'>Body-1</option>
@@ -43,7 +43,7 @@ export default function Option({ setHead, setBody, setLegs }) {
         </select>
       </div>
       <div>
-        <h3>{countLegs}</h3>
+        <h3>Change Total: {countLegs}</h3>
         <label>Choose a Legs</label>
         <select onChange={handleLegCount}>
           <option value='legs-3'>Legs-3</option>

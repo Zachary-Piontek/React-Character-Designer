@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import '../Lists/list.css';
+import './list.css';
 
 export default function List({ phrase, setPhrase }) {
   const [currentPhrase, setCurrentPhrase] = useState('');
